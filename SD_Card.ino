@@ -16,7 +16,7 @@ void SDCard() {
 
   myFile = SD.open(imeFajla, FILE_WRITE);
   if (myFile) {
-    Serial.println("Pisanje na karticu");
+    Serial.println("Pisanje na karticu " + z);
     myFile.println("Test");
     myFile.println("....");
 
